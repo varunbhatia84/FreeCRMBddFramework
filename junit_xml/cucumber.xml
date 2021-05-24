@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="42.607732">
+<testcase classname="FreeCRM Create Contacts" name="Free CRM create a new contact" time="22.299459">
+<system-out><![CDATA[Given user is already on login Page.........................................passed
+When title of login page is Free CRM........................................passed
+Then user enters "groupautomation" and "Test@12345".........................passed
+Then user clicks on login button............................................passed
+Then user is on Home page...................................................passed
+Then user mouse over on contact link........................................passed
+Then user clicks on new contact link........................................passed
+Then user enters contact details "Mr." and "Abe" and "Sabian" and "ArchTech" and "abe.sab@gmail.com" and "7678767876".passed
+Then user clicks on save button.............................................passed
+Then verify new contact created "Abe".......................................passed
+Then user closes browser....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="FreeCRM Create Contacts" name="Free CRM create a new contact 2" time="20.308273">
+<system-out><![CDATA[Given user is already on login Page.........................................passed
+When title of login page is Free CRM........................................passed
+Then user enters "groupautomation" and "Test@12345".........................passed
+Then user clicks on login button............................................passed
+Then user is on Home page...................................................passed
+Then user mouse over on contact link........................................passed
+Then user clicks on new contact link........................................passed
+Then user enters contact details "Mrs." and "Beena" and "Banner" and "ABCTech" and "been.sab@gmail.com" and "7678767876".passed
+Then user clicks on save button.............................................passed
+Then verify new contact created "Beena".....................................passed
+Then user closes browser....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
