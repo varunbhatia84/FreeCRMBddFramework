@@ -8,7 +8,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		//Complete path of Feature and stepDefinations package has to be given
-		features="/Users/hridhaan/eclipse-workspace/FreeCRMBddFramework/src/main/java/Features/contacts.feature",
+		features="/Users/hridhaan/eclipse-workspace/FreeCRMBddFramework/src/main/java/Features/deals.feature",
 		//features defines path of feature file
 		glue= {"stepDefination"},//glue defines where step definitions file is available
 		format= {"pretty","html:test-output","json:json_output/cucumber.json","junit:junit_xml/cucumber.xml"},
